@@ -7,19 +7,28 @@
 
 import SwiftUI
 
+struct MyStruct {
+    
+}
+
 struct ContentView: View {
     var body: some View {
-//        VStack(alignment: .leading) {
-//            Text("Turtle Rock").font(.title)
-//            HStack {
-//                Text("Joshua Tree National Park").font(.subheadline)
-//                Spacer()
-//                Text("California").font(.subheadline)
-//            }
-//        }.padding()
         Grid(alignment: .leading) {
-            GridRow {
-                Text("Header")
+            /*
+            for i in 0...5 {
+                GridRow {
+                    Text("Row #\(i)")
+                }
+            }*/
+            var flag = false
+            if flag {
+                GridRow {
+                    Text("Header")
+                }
+            } else {
+                GridRow {
+                    Text("HeaderFalse")
+                }
             }
             Spacer()
             GridRow {

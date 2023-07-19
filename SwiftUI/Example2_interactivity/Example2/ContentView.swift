@@ -7,24 +7,28 @@
 
 import SwiftUI
 
-struct ContentView: View {
-    @State private var text: String = ""
+struct ContentView : View {
     var body: some View {
-        VStack {
-            TextField(
-                "Input text",
-                text: $text
-            )
-            .textInputAutocapitalization(.never)
-            .disableAutocorrection(true)
-            .border(.secondary)
-
-            Text(text)
-                .foregroundColor(.blue)
-            Spacer()
+        List {
+            Section {
+                Text("Bottom")
+            }.overlay(alignment: .topTrailing) {
+                Text("Top")
+                    .frame(minHeight: 400)
+                    .background(Color.green)
+                    .offset(y: 25)
+            }
+            
+            Section{
+                Text("Form2")
+            }
+            Section{
+                Text("Form3")
+            }
         }
     }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

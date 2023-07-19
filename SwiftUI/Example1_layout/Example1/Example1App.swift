@@ -10,7 +10,7 @@ import SwiftUI
 @main
 struct Example1App: App {
     var body: some Scene {
-        WindowGroup {
+        return WindowGroup {
             ContentView()
         }
     }
