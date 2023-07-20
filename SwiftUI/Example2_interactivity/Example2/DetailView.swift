@@ -9,11 +9,14 @@ import SwiftUI
 
 struct DetailView: View {
     var body: some View {
-        Group {
-            Text("Text1")
+            Text("TextInput")
+            .overlay(alignment: .topTrailing) {
+            Text("SuggestOptions")
+                .frame(minHeight: 400)
+                .background(Color.green)
+                .offset(x: 25, y: 25)
+                .opacity(0.5)
         }
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(Color.)
     }
 }
 

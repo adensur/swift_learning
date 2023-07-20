@@ -9,21 +9,19 @@ import SwiftUI
 
 struct ContentView : View {
     var body: some View {
-        List {
+        Form {
             Section {
-                Text("Bottom")
-            }.overlay(alignment: .topTrailing) {
-                Text("Top")
-                    .frame(minHeight: 400)
-                    .background(Color.green)
-                    .offset(y: 25)
-            }
-            
-            Section{
-                Text("Form2")
-            }
-            Section{
-                Text("Form3")
+                VStack {
+                    Text("TextInput")
+                        .overlay(alignment: .topTrailing) {
+                            Text("SuggestOptions")
+                                .frame(minHeight: 400)
+                                .background(Color.green)
+                                .offset(x: 25, y: 25)
+                                .opacity(0.5)
+                        }
+                }
+                .frame(minHeight: 400, alignment: .topLeading)
             }
         }
     }

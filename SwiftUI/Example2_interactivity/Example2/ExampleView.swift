@@ -9,21 +9,8 @@ import SwiftUI
 
 struct ExampleView: View {
     var body: some View {
-        VStack {
-            Form {
-                Section {
-                    Text("Text1")
-                    Text("Text1.1")
-                    Text("Text1.2")
-                }
-                Section {
-                    Text("Text2")
-                }
-                Section {
-                    Text("Text3")
-                }
-            }
-        }
+        Text("Text1")
+        Text("Text2")
     }
 }
 
