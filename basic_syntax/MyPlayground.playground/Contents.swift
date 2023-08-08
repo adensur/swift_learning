@@ -1,10 +1,16 @@
 import SwiftUI
 import Foundation
 
-var lastRepetition = Date()
-var interval = TimeInterval(1)
-let nextRepetition: Date = lastRepetition + interval
-print(type(of: nextRepetition))
-var i = nextRepetition.timeIntervalSince(Date())
+func findValueOfPartition(_ nums: [Int]) -> Int {
+    let sortedNums = nums.sorted()
+    var minDelta = sortedNums[1] - sortedNums[0]
+    for i in 1..<sortedNums.count {
+        let delta = sortedNums[i] - sortedNums[i - 1]
+        if delta < minDelta {
+            minDelta = delta
+        }
+    }
+    return minDelta
+}
 
-print(i)
+print(findValueOfPartition([84,11,100,100,75]))

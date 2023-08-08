@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "05266A01-633D-4FC1-AEE5-4D6CFE026A99"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9A26910C-AC2A-4E0D-A38D-616CBB26086F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyPlayground.playground"
+            startingColumnNumber = "7"
+            endingColumnNumber = "27"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "top"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
