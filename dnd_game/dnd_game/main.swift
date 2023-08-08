@@ -78,47 +78,52 @@ class Elf: Entity {
 //    print("Hello \(input)!")
 //}
 
-let player = Elf()
-let enemy = Orc()
-// main play loop
-while true {
-    // print out current state of the battle
-    print("A battle is happening! Your hp: \(player.hp), enemy hp: \(enemy.hp)")
-    // give a player a choice - run or fight
-    print("Will you fight (1) or run (2)?")
-    var input = ""
+func playLoop(player: Entity, enemy: Entity) {
+    // main play loop
     while true {
-        input = readLine()!
-        switch input {
-        case "1":
-            print("1 selected")
-        case "2":
-            print("2 selected")
-        default:
-            print("Please select 1 or 2")
-            continue
-        }
-        break
-    }
-    if input == "2" {
-        print("You ran away. No loot for you today!")
-        break
-    } else if input == "1" {
-        // player turn
-        let playerAttack = player.attack()
-        let isEnemyDead = enemy.receiveDamage(damage: playerAttack)
-        if isEnemyDead {
-            print("You have won! All the loot is yours!")
+        // print out current state of the battle
+        print("A battle is happening! Your hp: \(player.hp), enemy hp: \(enemy.hp)")
+        // give a player a choice - run or fight
+        print("Will you fight (1) or run (2)?")
+        var input = ""
+        while true {
+            input = readLine()!
+            switch input {
+            case "1":
+                print("1 selected")
+            case "2":
+                print("2 selected")
+            default:
+                print("Please select 1 or 2")
+                continue
+            }
             break
         }
-        // enemy turn
-        let enemyAttack = enemy.attack()
-        let isPlayerDead = player.receiveDamage(damage: enemyAttack)
-        if isPlayerDead {
-            print("You have died!")
+        if input == "2" {
+            print("You ran away. No loot for you today!")
+            break
+        } else if input == "1" {
+            // player turn
+            let playerAttack = player.attack()
+            let isEnemyDead = enemy.receiveDamage(damage: playerAttack)
+            if isEnemyDead {
+                print("You have won! All the loot is yours!")
+                break
+            }
+            // enemy turn
+            let enemyAttack = enemy.attack()
+            let isPlayerDead = player.receiveDamage(damage: enemyAttack)
+            if isPlayerDead {
+                print("You have died!")
+                break
+            }
+            print("")
         }
-        print("")
     }
 }
 
+let player = Elf()
+let enemy = Orc()
+
+playLoop(player: player, enemy: enemy)
 
