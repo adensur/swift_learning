@@ -9,12 +9,16 @@ import SwiftUI
 
 struct PlayView: View {
     @State private var countries = [
-        "Estonia", "France", "Germany", "Ireland", "Italy", "Monaco", "Nigeria", "Poland", "Russia", "Spain", "UK", "US",
+        "Estonia", "France", "Sweden"
+//        "Germany", "Ireland", "Italy", "Monaco", "Nigeria", "Poland", "Russia", "Spain", "UK", "US",
     ].shuffled()
     @State private var correctAnswer = Int.random(in: 0..<3)
     @State private var chosenAnswer = 0
     @State private var showAlert = false
     @State private var score = 0
+    // The game will call the callback with the score at the end of the round
+    var name: String
+    var callback: (Int) -> Void
     
     var body: some View {
         ZStack {
@@ -25,6 +29,8 @@ struct PlayView: View {
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .ignoresSafeArea()
             VStack {
+                Text("Current player: \(name)")
+                    .foregroundColor(Color.white)
                 Text("Guess the flag")
                     .font(.title)
                     .foregroundColor(Color.white)
@@ -56,6 +62,9 @@ struct PlayView: View {
                     .clipShape(RoundedRectangle(cornerRadius: 20))
                 Spacer()
                 Text("Score: \(score)")
+                Button("Finish") {
+                    callback(score)
+                }
                 Spacer()
             }
         }
@@ -90,6 +99,6 @@ struct PlayView: View {
 
 struct PlayView_Previews: PreviewProvider {
     static var previews: some View {
-        PlayView()
+        PlayView(name: "Max") {_ in }
     }
 }
