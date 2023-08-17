@@ -9,8 +9,7 @@ import SwiftUI
 
 struct PlayView: View {
     @State private var countries = [
-        "Estonia", "France", "Sweden"
-//        "Germany", "Ireland", "Italy", "Monaco", "Nigeria", "Poland", "Russia", "Spain", "UK", "US",
+        "Estonia", "France", "Sweden", "Germany", "Ireland", "Italy", "Monaco", "Nigeria", "Poland", "Russia", "Spain", "UK", "US",
     ].shuffled()
     @State private var correctAnswer = Int.random(in: 0..<3)
     @State private var chosenAnswer = 0
@@ -29,6 +28,7 @@ struct PlayView: View {
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .ignoresSafeArea()
             VStack {
+                Spacer()
                 Text("Current player: \(name)")
                     .foregroundColor(Color.white)
                 Text("Guess the flag")
@@ -41,10 +41,9 @@ struct PlayView: View {
                     Spacer()
                     Text("Tap the flag of")
                         .font(.title2)
-                        .foregroundColor(Color.white)
+                        .foregroundStyle(.secondary)
                     Text("\(countries[correctAnswer])")
                         .font(.title)
-                        .foregroundColor(Color.white)
                     Spacer()
                     ForEach(0..<3) {i in
                         Image(countries[i])
@@ -56,10 +55,13 @@ struct PlayView: View {
                     }
                     Spacer()
                 }
-                .frame(minWidth: 300, maxHeight: 600)
-                    .background(Color.secondary)
-                    .backgroundStyle(.thinMaterial)
-                    .clipShape(RoundedRectangle(cornerRadius: 20))
+                .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
+                .padding()
+                .background(Color.secondary)
+                .background(.thinMaterial)
+                .clipShape(RoundedRectangle(cornerRadius: 20))
+                .padding()
+                Spacer()
                 Spacer()
                 Text("Score: \(score)")
                 Button("Finish") {

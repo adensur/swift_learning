@@ -7,7 +7,15 @@
 
 import Foundation
 
-class Entity {
+protocol EntityProtocol {
+    func attack() -> Int
+    mutating func receiveDamage(damage: Int) -> Bool
+    var hp: Int {
+        get
+    }
+}
+
+struct Entity: EntityProtocol {
     let attackMin: Int
     let attackMax: Int
     var hp: Int
@@ -29,7 +37,7 @@ class Entity {
         return rollDice(from: attackMin, to: attackMax)
     }
     
-    func receiveDamage(damage: Int) -> Bool {
+    mutating func receiveDamage(damage: Int) -> Bool {
         hp -= damage
         if hp <= 0 {
             print("\(name) received \(damage) damage and has died.")
@@ -40,35 +48,53 @@ class Entity {
     }
 }
 
-class Orc: Entity {
-    init() {
-        super.init(attackMin: 1, attackMax: 6, hp: 20, name: "Orc")
+struct Orc: EntityProtocol {
+    mutating func receiveDamage(damage: Int) -> Bool {
+        entity.receiveDamage(damage: damage)
     }
     
-    override func attack() -> Int {
-        var dmg = super.attack()
+    var hp: Int {
+        return entity.hp
+    }
+    
+    var entity: Entity
+    init() {
+        self.entity = Entity(attackMin: 1, attackMax: 6, hp: 20, name: "Orc")
+    }
+    
+    func attack() -> Int {
+        var dmg = entity.attack()
         // roll for critical dmg
-        let diceRoll = rollDice(from: 1, to: 8)
+        let diceRoll = entity.rollDice(from: 1, to: 8)
         
         if diceRoll == 8 {
             dmg *= 2
-            print("\(name) has landed a critical hit! Dmage is doubled to \(dmg)")
+            print("\(entity.name) has landed a critical hit! Dmage is doubled to \(dmg)")
         }
         return dmg
     }
 }
 
-class Elf: Entity {
-    init() {
-        super.init(attackMin: 1, attackMax: 8, hp: 15, name: "Elf")
+struct Elf: EntityProtocol {
+    func attack() -> Int {
+        return entity.attack()
     }
-    override func receiveDamage(damage: Int) -> Bool {
-        let evadeRoll = rollDice(from: 1, to: 6)
+    
+    var hp: Int {
+        return entity.hp
+    }
+    
+    var entity: Entity
+    init() {
+        self.entity = Entity(attackMin: 1, attackMax: 8, hp: 15, name: "Elf")
+    }
+    mutating func receiveDamage(damage: Int) -> Bool {
+        let evadeRoll = entity.rollDice(from: 1, to: 6)
         if evadeRoll == 1 {
-            print("\(name) has evaded the attack!")
+            print("\(entity.name) has evaded the attack!")
             return false
         }
-        return super.receiveDamage(damage: damage)
+        return entity.receiveDamage(damage: damage)
     }
 }
 
@@ -78,7 +104,9 @@ class Elf: Entity {
 //    print("Hello \(input)!")
 //}
 
-func playLoop(player: Entity, enemy: Entity) {
+func playLoop<A: EntityProtocol, B: EntityProtocol>(player: A, enemy: B) {
+    var player = player
+    var enemy = enemy
     // main play loop
     while true {
         // print out current state of the battle
@@ -127,3 +155,4 @@ let enemy = Orc()
 
 playLoop(player: player, enemy: enemy)
 
+print("Final player hp: \(player.hp)")

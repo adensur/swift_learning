@@ -86,21 +86,23 @@ struct ContentView: View {
             ZStack {
                 LinearGradient(colors: [Color(red: 0.1, green: 0.2, blue: 0.46), Color(red: 0.66, green: 0.2, blue: 0.26)], startPoint: UnitPoint(x: 0.0, y: 0.0), endPoint: UnitPoint(x: 0, y: 1))
                     .ignoresSafeArea()
-                Form {
-                    Section {
-                        TextField("Enter your name", text: $name)
-                    } header: {
-                        Text("Player Name")
-                    }
-                    Section {
-                        HStack {
-                            Spacer()
-                            Button("Play!") {
-                                navigationStack.append(0)
-                            }
-                            Spacer()
+                List {
+                    Group {
+                        Section {
+                            TextField("Enter your name", text: $name)
+                        } header: {
+                            Text("Player Name")
                         }
-                    }
+                        Section {
+                            HStack {
+                                Spacer()
+                                Button("Play!") {
+                                    navigationStack.append(0)
+                                }
+                                Spacer()
+                            }
+                        }
+                    }.listRowBackground(Color.white.opacity(0.9))
                 }
                 .scrollContentBackground(.hidden)
                 .navigationDestination(for: Int.self) {i in
