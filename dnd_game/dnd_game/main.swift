@@ -13,6 +13,7 @@ protocol EntityProtocol {
     var hp: Int {
         get
     }
+    func getFullName() -> String
 }
 
 struct Entity: EntityProtocol {
@@ -20,16 +21,22 @@ struct Entity: EntityProtocol {
     let attackMax: Int
     var hp: Int
     let name: String
-    init(attackMin: Int, attackMax: Int, hp: Int, name: String) {
+    let surname: String
+    init(attackMin: Int, attackMax: Int, hp: Int, name: String, surname: String) {
         self.attackMin = attackMin
         self.attackMax = attackMax
         self.hp = hp
         self.name = name
+        self.surname = surname
+    }
+    
+    func getFullName() -> String {
+        return name + surname
     }
     
     func rollDice(from: Int, to: Int) -> Int {
         let diceRoll = Int.random(in: from...to)
-        print("\(name) is rolling \(from)d\(to)! Result: \(diceRoll)")
+        print("\(name) \(surname) is rolling \(from)d\(to)! Result: \(diceRoll)")
         return diceRoll
     }
     
@@ -49,17 +56,26 @@ struct Entity: EntityProtocol {
 }
 
 struct Orc: EntityProtocol {
+    var extraData: Int = 20
     mutating func receiveDamage(damage: Int) -> Bool {
-        entity.receiveDamage(damage: damage)
+        extraData -= 1
+        if extraData < 0 {
+            return true
+        }
+        return entity.receiveDamage(damage: damage)
     }
     
     var hp: Int {
         return entity.hp
     }
     
+    func getFullName() -> String {
+        return entity.getFullName()
+    }
+    
     var entity: Entity
     init() {
-        self.entity = Entity(attackMin: 1, attackMax: 6, hp: 20, name: "Orc")
+        self.entity = Entity(attackMin: 1, attackMax: 6, hp: 20, name: "Orc", surname: "orkovish")
     }
     
     func attack() -> Int {
@@ -83,10 +99,13 @@ struct Elf: EntityProtocol {
     var hp: Int {
         return entity.hp
     }
+    func getFullName() -> String {
+        return entity.getFullName()
+    }
     
     var entity: Entity
     init() {
-        self.entity = Entity(attackMin: 1, attackMax: 8, hp: 15, name: "Elf")
+        self.entity = Entity(attackMin: 1, attackMax: 8, hp: 15, name: "Elf", surname: "chompski")
     }
     mutating func receiveDamage(damage: Int) -> Bool {
         let evadeRoll = entity.rollDice(from: 1, to: 6)
@@ -103,10 +122,11 @@ struct Elf: EntityProtocol {
 //if let input = readLine() {
 //    print("Hello \(input)!")
 //}
-
-func playLoop<A: EntityProtocol, B: EntityProtocol>(player: A, enemy: B) {
+func playLoop(player: some EntityProtocol, enemy: some EntityProtocol) {
     var player = player
     var enemy = enemy
+    print(MemoryLayout.size(ofValue: player))
+    print(MemoryLayout.size(ofValue: enemy))
     // main play loop
     while true {
         // print out current state of the battle
@@ -152,7 +172,10 @@ func playLoop<A: EntityProtocol, B: EntityProtocol>(player: A, enemy: B) {
 
 let player = Elf()
 let enemy = Orc()
-
+print(MemoryLayout.size(ofValue: Entity(attackMin: 3, attackMax: 5, hp: 100, name: "asd", surname: "bcd")))
+print(MemoryLayout.size(ofValue: player))
+print(MemoryLayout.size(ofValue: enemy))
 playLoop(player: player, enemy: enemy)
+playLoop(player: enemy, enemy: player)
 
 print("Final player hp: \(player.hp)")

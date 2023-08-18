@@ -7,71 +7,29 @@
 
 import SwiftUI
 
-let defaultDeck = Deck()
-
-class Deck: ObservableObject {
-    @Published var currentCard: String? = nil
-    
-    func addCard() {
-        self.currentCard = "NewCard"
-    }
-    
-    func deleteCard() {
-        currentCard = nil
-    }
-}
-
-struct EditCardView: View {
-    @ObservedObject var deck: Deck
-    @Environment(\.presentationMode) var presentationMode
-    var body: some View {
-        NavigationView {
-            Button("Delete") {
-                // Perform save action here
-                // hack to update the parent view
-                deck.deleteCard()
-                presentationMode.wrappedValue.dismiss()
-            }
-        }
-    }
-}
-
-
-
 struct ContentView: View {
-    @StateObject var deck: Deck
     var body: some View {
-        NavigationView {
-            VStack {
-                Text("Hi!")
-                if let currentCard = deck.currentCard {
-                    Text("CurrentCard: \(deck.currentCard!)")
-                        .onAppear {
-                            print("OnAppear called, currentCard: \(currentCard)", Date())
-                        }
-                        .onDisappear {
-                            print("onDisappear called, currentCard: \(currentCard)", Date())
-                        }
-                } else {
-                    Text("Out of cards!")
+        ZStack {
+            LinearGradient(colors: [Color(red: 0.1, green: 0.2, blue: 0.46), Color(red: 0.66, green: 0.2, blue: 0.26)], startPoint: UnitPoint(x: 0.0, y: 0.0), endPoint: UnitPoint(x: 0, y: 1))
+                .ignoresSafeArea()
+            Form {
+                Section(header: Text("Section 1")) {
+                    Text("Row 1")
+                    Text("Row 2")
                 }
-                Button("Add") {
-                    deck.addCard()
-                }
-                if let currentCard = deck.currentCard {
-                    NavigationLink {
-                        EditCardView(deck: deck)
-                    } label: {
-                        Text("edit")
-                    }
+                
+                Section(header: Text("Section 2")) {
+                    Text("Row 3")
+                    Text("Row 4")
                 }
             }
+            .scrollContentBackground(.hidden)
         }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(deck: defaultDeck)
+        ContentView()
     }
 }

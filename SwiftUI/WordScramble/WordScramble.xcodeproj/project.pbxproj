@@ -7,67 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		093455802A87FB680009ED8E /* HighScoresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0934557F2A87FB680009ED8E /* HighScoresView.swift */; };
-		0938C2002A8E5CDE006C3AB0 /* HighScores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0938C1FF2A8E5CDE006C3AB0 /* HighScores.swift */; };
-		094207862A80343F009EAE2F /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094207852A80343F009EAE2F /* PlayView.swift */; };
-		096D4FB72A695FCF004C4C30 /* GuessTheFlagApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096D4FB62A695FCF004C4C30 /* GuessTheFlagApp.swift */; };
-		096D4FB92A695FCF004C4C30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096D4FB82A695FCF004C4C30 /* ContentView.swift */; };
-		096D4FBB2A695FD1004C4C30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 096D4FBA2A695FD1004C4C30 /* Assets.xcassets */; };
-		096D4FBE2A695FD1004C4C30 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 096D4FBD2A695FD1004C4C30 /* Preview Assets.xcassets */; };
-		096D4FC82A695FD2004C4C30 /* GuessTheFlagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096D4FC72A695FD2004C4C30 /* GuessTheFlagTests.swift */; };
-		096D4FD22A695FD2004C4C30 /* GuessTheFlagUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096D4FD12A695FD2004C4C30 /* GuessTheFlagUITests.swift */; };
-		096D4FD42A695FD2004C4C30 /* GuessTheFlagUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096D4FD32A695FD2004C4C30 /* GuessTheFlagUITestsLaunchTests.swift */; };
+		0938C20E2A8F95F8006C3AB0 /* WordScrambleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0938C20D2A8F95F8006C3AB0 /* WordScrambleApp.swift */; };
+		0938C2102A8F95F8006C3AB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0938C20F2A8F95F8006C3AB0 /* ContentView.swift */; };
+		0938C2122A8F95FA006C3AB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0938C2112A8F95FA006C3AB0 /* Assets.xcassets */; };
+		0938C2152A8F95FB006C3AB0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0938C2142A8F95FB006C3AB0 /* Preview Assets.xcassets */; };
+		0938C21F2A8F95FB006C3AB0 /* WordScrambleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0938C21E2A8F95FB006C3AB0 /* WordScrambleTests.swift */; };
+		0938C2292A8F95FB006C3AB0 /* WordScrambleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0938C2282A8F95FB006C3AB0 /* WordScrambleUITests.swift */; };
+		0938C22B2A8F95FB006C3AB0 /* WordScrambleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0938C22A2A8F95FB006C3AB0 /* WordScrambleUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		096D4FC42A695FD2004C4C30 /* PBXContainerItemProxy */ = {
+		0938C21B2A8F95FB006C3AB0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 096D4FAB2A695FCF004C4C30 /* Project object */;
+			containerPortal = 0938C2022A8F95F8006C3AB0 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 096D4FB22A695FCF004C4C30;
-			remoteInfo = GuessTheFlag;
+			remoteGlobalIDString = 0938C2092A8F95F8006C3AB0;
+			remoteInfo = WordScramble;
 		};
-		096D4FCE2A695FD2004C4C30 /* PBXContainerItemProxy */ = {
+		0938C2252A8F95FB006C3AB0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 096D4FAB2A695FCF004C4C30 /* Project object */;
+			containerPortal = 0938C2022A8F95F8006C3AB0 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 096D4FB22A695FCF004C4C30;
-			remoteInfo = GuessTheFlag;
+			remoteGlobalIDString = 0938C2092A8F95F8006C3AB0;
+			remoteInfo = WordScramble;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0934557F2A87FB680009ED8E /* HighScoresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighScoresView.swift; sourceTree = "<group>"; };
-		0938C1FF2A8E5CDE006C3AB0 /* HighScores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighScores.swift; sourceTree = "<group>"; };
-		094207852A80343F009EAE2F /* PlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayView.swift; sourceTree = "<group>"; };
-		096D4FB32A695FCF004C4C30 /* GuessTheFlag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessTheFlag.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		096D4FB62A695FCF004C4C30 /* GuessTheFlagApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlagApp.swift; sourceTree = "<group>"; };
-		096D4FB82A695FCF004C4C30 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		096D4FBA2A695FD1004C4C30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		096D4FBD2A695FD1004C4C30 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		096D4FC32A695FD2004C4C30 /* GuessTheFlagTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuessTheFlagTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		096D4FC72A695FD2004C4C30 /* GuessTheFlagTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlagTests.swift; sourceTree = "<group>"; };
-		096D4FCD2A695FD2004C4C30 /* GuessTheFlagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuessTheFlagUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		096D4FD12A695FD2004C4C30 /* GuessTheFlagUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlagUITests.swift; sourceTree = "<group>"; };
-		096D4FD32A695FD2004C4C30 /* GuessTheFlagUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlagUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0938C20A2A8F95F8006C3AB0 /* WordScramble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordScramble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0938C20D2A8F95F8006C3AB0 /* WordScrambleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScrambleApp.swift; sourceTree = "<group>"; };
+		0938C20F2A8F95F8006C3AB0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0938C2112A8F95FA006C3AB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0938C2142A8F95FB006C3AB0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0938C21A2A8F95FB006C3AB0 /* WordScrambleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordScrambleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0938C21E2A8F95FB006C3AB0 /* WordScrambleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScrambleTests.swift; sourceTree = "<group>"; };
+		0938C2242A8F95FB006C3AB0 /* WordScrambleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordScrambleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0938C2282A8F95FB006C3AB0 /* WordScrambleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScrambleUITests.swift; sourceTree = "<group>"; };
+		0938C22A2A8F95FB006C3AB0 /* WordScrambleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScrambleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		096D4FB02A695FCF004C4C30 /* Frameworks */ = {
+		0938C2072A8F95F8006C3AB0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		096D4FC02A695FD2004C4C30 /* Frameworks */ = {
+		0938C2172A8F95FB006C3AB0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		096D4FCA2A695FD2004C4C30 /* Frameworks */ = {
+		0938C2212A8F95FB006C3AB0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -77,161 +71,142 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0938C1FD2A8E5CAA006C3AB0 /* Model */ = {
+		0938C2012A8F95F8006C3AB0 = {
 			isa = PBXGroup;
 			children = (
-				0938C1FF2A8E5CDE006C3AB0 /* HighScores.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		0938C1FE2A8E5CAF006C3AB0 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				096D4FB82A695FCF004C4C30 /* ContentView.swift */,
-				0934557F2A87FB680009ED8E /* HighScoresView.swift */,
-				094207852A80343F009EAE2F /* PlayView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		096D4FAA2A695FCF004C4C30 = {
-			isa = PBXGroup;
-			children = (
-				096D4FB52A695FCF004C4C30 /* GuessTheFlag */,
-				096D4FC62A695FD2004C4C30 /* GuessTheFlagTests */,
-				096D4FD02A695FD2004C4C30 /* GuessTheFlagUITests */,
-				096D4FB42A695FCF004C4C30 /* Products */,
+				0938C20C2A8F95F8006C3AB0 /* WordScramble */,
+				0938C21D2A8F95FB006C3AB0 /* WordScrambleTests */,
+				0938C2272A8F95FB006C3AB0 /* WordScrambleUITests */,
+				0938C20B2A8F95F8006C3AB0 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		096D4FB42A695FCF004C4C30 /* Products */ = {
+		0938C20B2A8F95F8006C3AB0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				096D4FB32A695FCF004C4C30 /* GuessTheFlag.app */,
-				096D4FC32A695FD2004C4C30 /* GuessTheFlagTests.xctest */,
-				096D4FCD2A695FD2004C4C30 /* GuessTheFlagUITests.xctest */,
+				0938C20A2A8F95F8006C3AB0 /* WordScramble.app */,
+				0938C21A2A8F95FB006C3AB0 /* WordScrambleTests.xctest */,
+				0938C2242A8F95FB006C3AB0 /* WordScrambleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		096D4FB52A695FCF004C4C30 /* GuessTheFlag */ = {
+		0938C20C2A8F95F8006C3AB0 /* WordScramble */ = {
 			isa = PBXGroup;
 			children = (
-				0938C1FE2A8E5CAF006C3AB0 /* Views */,
-				0938C1FD2A8E5CAA006C3AB0 /* Model */,
-				096D4FB62A695FCF004C4C30 /* GuessTheFlagApp.swift */,
-				096D4FBA2A695FD1004C4C30 /* Assets.xcassets */,
-				096D4FBC2A695FD1004C4C30 /* Preview Content */,
+				0938C20D2A8F95F8006C3AB0 /* WordScrambleApp.swift */,
+				0938C20F2A8F95F8006C3AB0 /* ContentView.swift */,
+				0938C2112A8F95FA006C3AB0 /* Assets.xcassets */,
+				0938C2132A8F95FB006C3AB0 /* Preview Content */,
 			);
-			path = GuessTheFlag;
+			path = WordScramble;
 			sourceTree = "<group>";
 		};
-		096D4FBC2A695FD1004C4C30 /* Preview Content */ = {
+		0938C2132A8F95FB006C3AB0 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				096D4FBD2A695FD1004C4C30 /* Preview Assets.xcassets */,
+				0938C2142A8F95FB006C3AB0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		096D4FC62A695FD2004C4C30 /* GuessTheFlagTests */ = {
+		0938C21D2A8F95FB006C3AB0 /* WordScrambleTests */ = {
 			isa = PBXGroup;
 			children = (
-				096D4FC72A695FD2004C4C30 /* GuessTheFlagTests.swift */,
+				0938C21E2A8F95FB006C3AB0 /* WordScrambleTests.swift */,
 			);
-			path = GuessTheFlagTests;
+			path = WordScrambleTests;
 			sourceTree = "<group>";
 		};
-		096D4FD02A695FD2004C4C30 /* GuessTheFlagUITests */ = {
+		0938C2272A8F95FB006C3AB0 /* WordScrambleUITests */ = {
 			isa = PBXGroup;
 			children = (
-				096D4FD12A695FD2004C4C30 /* GuessTheFlagUITests.swift */,
-				096D4FD32A695FD2004C4C30 /* GuessTheFlagUITestsLaunchTests.swift */,
+				0938C2282A8F95FB006C3AB0 /* WordScrambleUITests.swift */,
+				0938C22A2A8F95FB006C3AB0 /* WordScrambleUITestsLaunchTests.swift */,
 			);
-			path = GuessTheFlagUITests;
+			path = WordScrambleUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		096D4FB22A695FCF004C4C30 /* GuessTheFlag */ = {
+		0938C2092A8F95F8006C3AB0 /* WordScramble */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 096D4FD72A695FD2004C4C30 /* Build configuration list for PBXNativeTarget "GuessTheFlag" */;
+			buildConfigurationList = 0938C22E2A8F95FB006C3AB0 /* Build configuration list for PBXNativeTarget "WordScramble" */;
 			buildPhases = (
-				096D4FAF2A695FCF004C4C30 /* Sources */,
-				096D4FB02A695FCF004C4C30 /* Frameworks */,
-				096D4FB12A695FCF004C4C30 /* Resources */,
+				0938C2062A8F95F8006C3AB0 /* Sources */,
+				0938C2072A8F95F8006C3AB0 /* Frameworks */,
+				0938C2082A8F95F8006C3AB0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = GuessTheFlag;
-			productName = GuessTheFlag;
-			productReference = 096D4FB32A695FCF004C4C30 /* GuessTheFlag.app */;
+			name = WordScramble;
+			productName = WordScramble;
+			productReference = 0938C20A2A8F95F8006C3AB0 /* WordScramble.app */;
 			productType = "com.apple.product-type.application";
 		};
-		096D4FC22A695FD2004C4C30 /* GuessTheFlagTests */ = {
+		0938C2192A8F95FB006C3AB0 /* WordScrambleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 096D4FDA2A695FD2004C4C30 /* Build configuration list for PBXNativeTarget "GuessTheFlagTests" */;
+			buildConfigurationList = 0938C2312A8F95FB006C3AB0 /* Build configuration list for PBXNativeTarget "WordScrambleTests" */;
 			buildPhases = (
-				096D4FBF2A695FD2004C4C30 /* Sources */,
-				096D4FC02A695FD2004C4C30 /* Frameworks */,
-				096D4FC12A695FD2004C4C30 /* Resources */,
+				0938C2162A8F95FB006C3AB0 /* Sources */,
+				0938C2172A8F95FB006C3AB0 /* Frameworks */,
+				0938C2182A8F95FB006C3AB0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				096D4FC52A695FD2004C4C30 /* PBXTargetDependency */,
+				0938C21C2A8F95FB006C3AB0 /* PBXTargetDependency */,
 			);
-			name = GuessTheFlagTests;
-			productName = GuessTheFlagTests;
-			productReference = 096D4FC32A695FD2004C4C30 /* GuessTheFlagTests.xctest */;
+			name = WordScrambleTests;
+			productName = WordScrambleTests;
+			productReference = 0938C21A2A8F95FB006C3AB0 /* WordScrambleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		096D4FCC2A695FD2004C4C30 /* GuessTheFlagUITests */ = {
+		0938C2232A8F95FB006C3AB0 /* WordScrambleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 096D4FDD2A695FD2004C4C30 /* Build configuration list for PBXNativeTarget "GuessTheFlagUITests" */;
+			buildConfigurationList = 0938C2342A8F95FB006C3AB0 /* Build configuration list for PBXNativeTarget "WordScrambleUITests" */;
 			buildPhases = (
-				096D4FC92A695FD2004C4C30 /* Sources */,
-				096D4FCA2A695FD2004C4C30 /* Frameworks */,
-				096D4FCB2A695FD2004C4C30 /* Resources */,
+				0938C2202A8F95FB006C3AB0 /* Sources */,
+				0938C2212A8F95FB006C3AB0 /* Frameworks */,
+				0938C2222A8F95FB006C3AB0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				096D4FCF2A695FD2004C4C30 /* PBXTargetDependency */,
+				0938C2262A8F95FB006C3AB0 /* PBXTargetDependency */,
 			);
-			name = GuessTheFlagUITests;
-			productName = GuessTheFlagUITests;
-			productReference = 096D4FCD2A695FD2004C4C30 /* GuessTheFlagUITests.xctest */;
+			name = WordScrambleUITests;
+			productName = WordScrambleUITests;
+			productReference = 0938C2242A8F95FB006C3AB0 /* WordScrambleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		096D4FAB2A695FCF004C4C30 /* Project object */ = {
+		0938C2022A8F95F8006C3AB0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					096D4FB22A695FCF004C4C30 = {
+					0938C2092A8F95F8006C3AB0 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
-					096D4FC22A695FD2004C4C30 = {
+					0938C2192A8F95FB006C3AB0 = {
 						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = 096D4FB22A695FCF004C4C30;
+						TestTargetID = 0938C2092A8F95F8006C3AB0;
 					};
-					096D4FCC2A695FD2004C4C30 = {
+					0938C2232A8F95FB006C3AB0 = {
 						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = 096D4FB22A695FCF004C4C30;
+						TestTargetID = 0938C2092A8F95F8006C3AB0;
 					};
 				};
 			};
-			buildConfigurationList = 096D4FAE2A695FCF004C4C30 /* Build configuration list for PBXProject "GuessTheFlag" */;
+			buildConfigurationList = 0938C2052A8F95F8006C3AB0 /* Build configuration list for PBXProject "WordScramble" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -239,36 +214,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 096D4FAA2A695FCF004C4C30;
-			productRefGroup = 096D4FB42A695FCF004C4C30 /* Products */;
+			mainGroup = 0938C2012A8F95F8006C3AB0;
+			productRefGroup = 0938C20B2A8F95F8006C3AB0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				096D4FB22A695FCF004C4C30 /* GuessTheFlag */,
-				096D4FC22A695FD2004C4C30 /* GuessTheFlagTests */,
-				096D4FCC2A695FD2004C4C30 /* GuessTheFlagUITests */,
+				0938C2092A8F95F8006C3AB0 /* WordScramble */,
+				0938C2192A8F95FB006C3AB0 /* WordScrambleTests */,
+				0938C2232A8F95FB006C3AB0 /* WordScrambleUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		096D4FB12A695FCF004C4C30 /* Resources */ = {
+		0938C2082A8F95F8006C3AB0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				096D4FBE2A695FD1004C4C30 /* Preview Assets.xcassets in Resources */,
-				096D4FBB2A695FD1004C4C30 /* Assets.xcassets in Resources */,
+				0938C2152A8F95FB006C3AB0 /* Preview Assets.xcassets in Resources */,
+				0938C2122A8F95FA006C3AB0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		096D4FC12A695FD2004C4C30 /* Resources */ = {
+		0938C2182A8F95FB006C3AB0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		096D4FCB2A695FD2004C4C30 /* Resources */ = {
+		0938C2222A8F95FB006C3AB0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -278,52 +253,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		096D4FAF2A695FCF004C4C30 /* Sources */ = {
+		0938C2062A8F95F8006C3AB0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				093455802A87FB680009ED8E /* HighScoresView.swift in Sources */,
-				094207862A80343F009EAE2F /* PlayView.swift in Sources */,
-				0938C2002A8E5CDE006C3AB0 /* HighScores.swift in Sources */,
-				096D4FB92A695FCF004C4C30 /* ContentView.swift in Sources */,
-				096D4FB72A695FCF004C4C30 /* GuessTheFlagApp.swift in Sources */,
+				0938C2102A8F95F8006C3AB0 /* ContentView.swift in Sources */,
+				0938C20E2A8F95F8006C3AB0 /* WordScrambleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		096D4FBF2A695FD2004C4C30 /* Sources */ = {
+		0938C2162A8F95FB006C3AB0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				096D4FC82A695FD2004C4C30 /* GuessTheFlagTests.swift in Sources */,
+				0938C21F2A8F95FB006C3AB0 /* WordScrambleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		096D4FC92A695FD2004C4C30 /* Sources */ = {
+		0938C2202A8F95FB006C3AB0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				096D4FD42A695FD2004C4C30 /* GuessTheFlagUITestsLaunchTests.swift in Sources */,
-				096D4FD22A695FD2004C4C30 /* GuessTheFlagUITests.swift in Sources */,
+				0938C2292A8F95FB006C3AB0 /* WordScrambleUITests.swift in Sources */,
+				0938C22B2A8F95FB006C3AB0 /* WordScrambleUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		096D4FC52A695FD2004C4C30 /* PBXTargetDependency */ = {
+		0938C21C2A8F95FB006C3AB0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 096D4FB22A695FCF004C4C30 /* GuessTheFlag */;
-			targetProxy = 096D4FC42A695FD2004C4C30 /* PBXContainerItemProxy */;
+			target = 0938C2092A8F95F8006C3AB0 /* WordScramble */;
+			targetProxy = 0938C21B2A8F95FB006C3AB0 /* PBXContainerItemProxy */;
 		};
-		096D4FCF2A695FD2004C4C30 /* PBXTargetDependency */ = {
+		0938C2262A8F95FB006C3AB0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 096D4FB22A695FCF004C4C30 /* GuessTheFlag */;
-			targetProxy = 096D4FCE2A695FD2004C4C30 /* PBXContainerItemProxy */;
+			target = 0938C2092A8F95F8006C3AB0 /* WordScramble */;
+			targetProxy = 0938C2252A8F95FB006C3AB0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		096D4FD52A695FD2004C4C30 /* Debug */ = {
+		0938C22C2A8F95FB006C3AB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -383,7 +355,7 @@
 			};
 			name = Debug;
 		};
-		096D4FD62A695FD2004C4C30 /* Release */ = {
+		0938C22D2A8F95FB006C3AB0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -437,14 +409,14 @@
 			};
 			name = Release;
 		};
-		096D4FD82A695FD2004C4C30 /* Debug */ = {
+		0938C22F2A8F95FB006C3AB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"GuessTheFlag/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WordScramble/Preview Content\"";
 				DEVELOPMENT_TEAM = 4LZSXT57C3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -458,7 +430,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = mgaiduk.GuessTheFlag;
+				PRODUCT_BUNDLE_IDENTIFIER = mgaiduk.WordScramble;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -466,14 +438,14 @@
 			};
 			name = Debug;
 		};
-		096D4FD92A695FD2004C4C30 /* Release */ = {
+		0938C2302A8F95FB006C3AB0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"GuessTheFlag/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WordScramble/Preview Content\"";
 				DEVELOPMENT_TEAM = 4LZSXT57C3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -487,7 +459,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = mgaiduk.GuessTheFlag;
+				PRODUCT_BUNDLE_IDENTIFIER = mgaiduk.WordScramble;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -495,7 +467,7 @@
 			};
 			name = Release;
 		};
-		096D4FDB2A695FD2004C4C30 /* Debug */ = {
+		0938C2322A8F95FB006C3AB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -506,16 +478,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = mgaiduk.GuessTheFlagTests;
+				PRODUCT_BUNDLE_IDENTIFIER = mgaiduk.WordScrambleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuessTheFlag.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GuessTheFlag";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordScramble.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WordScramble";
 			};
 			name = Debug;
 		};
-		096D4FDC2A695FD2004C4C30 /* Release */ = {
+		0938C2332A8F95FB006C3AB0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -526,16 +498,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = mgaiduk.GuessTheFlagTests;
+				PRODUCT_BUNDLE_IDENTIFIER = mgaiduk.WordScrambleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuessTheFlag.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GuessTheFlag";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordScramble.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WordScramble";
 			};
 			name = Release;
 		};
-		096D4FDE2A695FD2004C4C30 /* Debug */ = {
+		0938C2352A8F95FB006C3AB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -544,16 +516,16 @@
 				DEVELOPMENT_TEAM = 4LZSXT57C3;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = mgaiduk.GuessTheFlagUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = mgaiduk.WordScrambleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = GuessTheFlag;
+				TEST_TARGET_NAME = WordScramble;
 			};
 			name = Debug;
 		};
-		096D4FDF2A695FD2004C4C30 /* Release */ = {
+		0938C2362A8F95FB006C3AB0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -562,55 +534,55 @@
 				DEVELOPMENT_TEAM = 4LZSXT57C3;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = mgaiduk.GuessTheFlagUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = mgaiduk.WordScrambleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = GuessTheFlag;
+				TEST_TARGET_NAME = WordScramble;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		096D4FAE2A695FCF004C4C30 /* Build configuration list for PBXProject "GuessTheFlag" */ = {
+		0938C2052A8F95F8006C3AB0 /* Build configuration list for PBXProject "WordScramble" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				096D4FD52A695FD2004C4C30 /* Debug */,
-				096D4FD62A695FD2004C4C30 /* Release */,
+				0938C22C2A8F95FB006C3AB0 /* Debug */,
+				0938C22D2A8F95FB006C3AB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		096D4FD72A695FD2004C4C30 /* Build configuration list for PBXNativeTarget "GuessTheFlag" */ = {
+		0938C22E2A8F95FB006C3AB0 /* Build configuration list for PBXNativeTarget "WordScramble" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				096D4FD82A695FD2004C4C30 /* Debug */,
-				096D4FD92A695FD2004C4C30 /* Release */,
+				0938C22F2A8F95FB006C3AB0 /* Debug */,
+				0938C2302A8F95FB006C3AB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		096D4FDA2A695FD2004C4C30 /* Build configuration list for PBXNativeTarget "GuessTheFlagTests" */ = {
+		0938C2312A8F95FB006C3AB0 /* Build configuration list for PBXNativeTarget "WordScrambleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				096D4FDB2A695FD2004C4C30 /* Debug */,
-				096D4FDC2A695FD2004C4C30 /* Release */,
+				0938C2322A8F95FB006C3AB0 /* Debug */,
+				0938C2332A8F95FB006C3AB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		096D4FDD2A695FD2004C4C30 /* Build configuration list for PBXNativeTarget "GuessTheFlagUITests" */ = {
+		0938C2342A8F95FB006C3AB0 /* Build configuration list for PBXNativeTarget "WordScrambleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				096D4FDE2A695FD2004C4C30 /* Debug */,
-				096D4FDF2A695FD2004C4C30 /* Release */,
+				0938C2352A8F95FB006C3AB0 /* Debug */,
+				0938C2362A8F95FB006C3AB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 096D4FAB2A695FCF004C4C30 /* Project object */;
+	rootObject = 0938C2022A8F95F8006C3AB0 /* Project object */;
 }

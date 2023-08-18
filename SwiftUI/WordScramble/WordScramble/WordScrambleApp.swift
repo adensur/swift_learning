@@ -1,14 +1,14 @@
 //
-//  Example2App.swift
-//  Example2
+//  WordScrambleApp.swift
+//  WordScramble
 //
-//  Created by Maksim Gaiduk on 23/02/2023.
+//  Created by Maksim Gaiduk on 18/08/2023.
 //
 
 import SwiftUI
 
 @main
-struct Example2App: App {
+struct WordScrambleApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

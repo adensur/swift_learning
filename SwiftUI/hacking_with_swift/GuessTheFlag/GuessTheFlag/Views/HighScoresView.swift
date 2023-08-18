@@ -48,7 +48,9 @@ struct HighScoresView: View {
     }
 }
 
-#Preview {
-    HighScoresView(highScores: previewScores) {
+struct HighScoresView_Previews: PreviewProvider {
+    static var previews: some View {
+        HighScoresView(highScores: previewScores) {
+        }
     }
 }
