@@ -1,13 +1,13 @@
 //
-//  WordScrambleUITestsLaunchTests.swift
-//  WordScrambleUITests
+//  AnimationLearningUITestsLaunchTests.swift
+//  AnimationLearningUITests
 //
-//  Created by Maksim Gaiduk on 18/08/2023.
+//  Created by Maksim Gaiduk on 19/08/2023.
 //
 
 import XCTest
 
-final class WordScrambleUITestsLaunchTests: XCTestCase {
+final class AnimationLearningUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

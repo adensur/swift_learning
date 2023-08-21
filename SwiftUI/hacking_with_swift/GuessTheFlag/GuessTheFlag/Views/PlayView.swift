@@ -20,6 +20,10 @@ struct PlayView: View {
     // The game will call the callback with the score at the end of the round
     var name: String
     var callback: (Int) -> Void
+    @State private var rotations: [Double] = [0, 0, 0]
+    @State private var opacities: [Double] = [1, 1, 1]
+    @State private var scales: [Double] = [1, 1, 1]
+    @State private var showFlags = true
     
     var body: some View {
         ZStack {
@@ -48,13 +52,33 @@ struct PlayView: View {
                         Text("\(countries[correctAnswer])")
                             .font(.title)
                         Spacer()
-                        ForEach(0..<3) {i in
-                            Image(countries[i])
-                                .clipShape(Capsule())
-                                .shadow(radius: 5)
-                                .onTapGesture {
-                                    imageTapped(i)
-                                }
+                        if showFlags {
+                            ForEach(0..<3) {i in
+                                Image(countries[i])
+                                    .clipShape(Capsule())
+                                    .shadow(radius: 5)
+                                    .onTapGesture {
+                                        imageTapped(i)
+                                        withAnimation {
+                                            rotations[i] += 360
+                                            for j in 0..<3 {
+                                                if j != i {
+                                                    opacities[j] = 0.25
+                                                    scales[j] = 0.75
+                                                }
+                                            }
+                                        }
+                                    }
+                                    .opacity(opacities[i])
+                                    .scaleEffect(scales[i])
+                                    .transition(.slide)
+                                    .rotation3DEffect(.degrees(rotations[i]), axis: (x: 0, y: 1, z: 0))
+                            }
+                        } else {
+                            ForEach(0..<3) {i in
+                                Image(countries[i])
+                                    .hidden()
+                            }
                         }
                         Spacer()
                     }
@@ -85,18 +109,18 @@ struct PlayView: View {
                     Text("That was the flag of \(countries[chosenAnswer])")
                 }
             }
-            .alert(
-                Text("You won!"),
-                isPresented: $showFinishAlert) {
-                    Button("OK") {
-                        print("Exiting#2")
-                        withAnimation {
-                            callback(score)
-                        }
+        .alert(
+            Text("You won!"),
+            isPresented: $showFinishAlert) {
+                Button("OK") {
+                    print("Exiting#2")
+                    withAnimation {
+                        callback(score)
                     }
-                } message: {
-                    Text("Your final score is: \(score)")
                 }
+            } message: {
+                Text("Your final score is: \(score)")
+            }
     }
     
     func imageTapped(_ i: Int) {
@@ -110,6 +134,10 @@ struct PlayView: View {
     }
     
     func reset(_ isAnswerCorrect: Bool) {
+        showFlags = false
+        withAnimation {
+            showFlags = true
+        }
         if isAnswerCorrect {
             countries.remove(at: chosenAnswer)
         }
@@ -121,6 +149,10 @@ struct PlayView: View {
         }
         correctAnswer = Int.random(in: 0..<3)
         countries = countries.shuffled()
+        for i in 0..<3 {
+            opacities[i] = 1.0
+            scales[i] = 1.0
+        }
     }
 }
 

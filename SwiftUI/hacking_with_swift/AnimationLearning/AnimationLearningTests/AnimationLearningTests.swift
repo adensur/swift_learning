@@ -1,14 +1,14 @@
 //
-//  WordScrambleTests.swift
-//  WordScrambleTests
+//  AnimationLearningTests.swift
+//  AnimationLearningTests
 //
-//  Created by Maksim Gaiduk on 18/08/2023.
+//  Created by Maksim Gaiduk on 19/08/2023.
 //
 
 import XCTest
-@testable import WordScramble
+@testable import AnimationLearning
 
-final class WordScrambleTests: XCTestCase {
+final class AnimationLearningTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

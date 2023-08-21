@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  WordScramble
+//  AnimationLearning
 //
-//  Created by Maksim Gaiduk on 18/08/2023.
+//  Created by Maksim Gaiduk on 19/08/2023.
 //
 
 import SwiftUI

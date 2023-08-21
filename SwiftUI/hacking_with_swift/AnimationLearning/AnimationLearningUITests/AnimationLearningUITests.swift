@@ -1,13 +1,13 @@
 //
-//  WordScrambleUITests.swift
-//  WordScrambleUITests
+//  AnimationLearningUITests.swift
+//  AnimationLearningUITests
 //
-//  Created by Maksim Gaiduk on 18/08/2023.
+//  Created by Maksim Gaiduk on 19/08/2023.
 //
 
 import XCTest
 
-final class WordScrambleUITests: XCTestCase {
+final class AnimationLearningUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

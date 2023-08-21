@@ -7,61 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0938C20E2A8F95F8006C3AB0 /* WordScrambleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0938C20D2A8F95F8006C3AB0 /* WordScrambleApp.swift */; };
-		0938C2102A8F95F8006C3AB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0938C20F2A8F95F8006C3AB0 /* ContentView.swift */; };
-		0938C2122A8F95FA006C3AB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0938C2112A8F95FA006C3AB0 /* Assets.xcassets */; };
-		0938C2152A8F95FB006C3AB0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0938C2142A8F95FB006C3AB0 /* Preview Assets.xcassets */; };
-		0938C21F2A8F95FB006C3AB0 /* WordScrambleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0938C21E2A8F95FB006C3AB0 /* WordScrambleTests.swift */; };
-		0938C2292A8F95FB006C3AB0 /* WordScrambleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0938C2282A8F95FB006C3AB0 /* WordScrambleUITests.swift */; };
-		0938C22B2A8F95FB006C3AB0 /* WordScrambleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0938C22A2A8F95FB006C3AB0 /* WordScrambleUITestsLaunchTests.swift */; };
+		0978585D2A91097D000A4908 /* AnimationLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0978585C2A91097D000A4908 /* AnimationLearningApp.swift */; };
+		0978585F2A91097D000A4908 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0978585E2A91097D000A4908 /* ContentView.swift */; };
+		097858612A91097F000A4908 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 097858602A91097F000A4908 /* Assets.xcassets */; };
+		097858642A91097F000A4908 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 097858632A91097F000A4908 /* Preview Assets.xcassets */; };
+		0978586E2A910980000A4908 /* AnimationLearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0978586D2A910980000A4908 /* AnimationLearningTests.swift */; };
+		097858782A910980000A4908 /* AnimationLearningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097858772A910980000A4908 /* AnimationLearningUITests.swift */; };
+		0978587A2A910980000A4908 /* AnimationLearningUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097858792A910980000A4908 /* AnimationLearningUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0938C21B2A8F95FB006C3AB0 /* PBXContainerItemProxy */ = {
+		0978586A2A910980000A4908 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 0938C2022A8F95F8006C3AB0 /* Project object */;
+			containerPortal = 097858512A91097D000A4908 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0938C2092A8F95F8006C3AB0;
-			remoteInfo = WordScramble;
+			remoteGlobalIDString = 097858582A91097D000A4908;
+			remoteInfo = AnimationLearning;
 		};
-		0938C2252A8F95FB006C3AB0 /* PBXContainerItemProxy */ = {
+		097858742A910980000A4908 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 0938C2022A8F95F8006C3AB0 /* Project object */;
+			containerPortal = 097858512A91097D000A4908 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0938C2092A8F95F8006C3AB0;
-			remoteInfo = WordScramble;
+			remoteGlobalIDString = 097858582A91097D000A4908;
+			remoteInfo = AnimationLearning;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0938C20A2A8F95F8006C3AB0 /* WordScramble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordScramble.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0938C20D2A8F95F8006C3AB0 /* WordScrambleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScrambleApp.swift; sourceTree = "<group>"; };
-		0938C20F2A8F95F8006C3AB0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		0938C2112A8F95FA006C3AB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0938C2142A8F95FB006C3AB0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		0938C21A2A8F95FB006C3AB0 /* WordScrambleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordScrambleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0938C21E2A8F95FB006C3AB0 /* WordScrambleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScrambleTests.swift; sourceTree = "<group>"; };
-		0938C2242A8F95FB006C3AB0 /* WordScrambleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordScrambleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0938C2282A8F95FB006C3AB0 /* WordScrambleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScrambleUITests.swift; sourceTree = "<group>"; };
-		0938C22A2A8F95FB006C3AB0 /* WordScrambleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScrambleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		097858592A91097D000A4908 /* AnimationLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0978585C2A91097D000A4908 /* AnimationLearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationLearningApp.swift; sourceTree = "<group>"; };
+		0978585E2A91097D000A4908 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		097858602A91097F000A4908 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		097858632A91097F000A4908 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		097858692A910980000A4908 /* AnimationLearningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationLearningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0978586D2A910980000A4908 /* AnimationLearningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationLearningTests.swift; sourceTree = "<group>"; };
+		097858732A910980000A4908 /* AnimationLearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationLearningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		097858772A910980000A4908 /* AnimationLearningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationLearningUITests.swift; sourceTree = "<group>"; };
+		097858792A910980000A4908 /* AnimationLearningUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationLearningUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0938C2072A8F95F8006C3AB0 /* Frameworks */ = {
+		097858562A91097D000A4908 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0938C2172A8F95FB006C3AB0 /* Frameworks */ = {
+		097858662A910980000A4908 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0938C2212A8F95FB006C3AB0 /* Frameworks */ = {
+		097858702A910980000A4908 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -71,142 +71,142 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0938C2012A8F95F8006C3AB0 = {
+		097858502A91097D000A4908 = {
 			isa = PBXGroup;
 			children = (
-				0938C20C2A8F95F8006C3AB0 /* WordScramble */,
-				0938C21D2A8F95FB006C3AB0 /* WordScrambleTests */,
-				0938C2272A8F95FB006C3AB0 /* WordScrambleUITests */,
-				0938C20B2A8F95F8006C3AB0 /* Products */,
+				0978585B2A91097D000A4908 /* AnimationLearning */,
+				0978586C2A910980000A4908 /* AnimationLearningTests */,
+				097858762A910980000A4908 /* AnimationLearningUITests */,
+				0978585A2A91097D000A4908 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0938C20B2A8F95F8006C3AB0 /* Products */ = {
+		0978585A2A91097D000A4908 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0938C20A2A8F95F8006C3AB0 /* WordScramble.app */,
-				0938C21A2A8F95FB006C3AB0 /* WordScrambleTests.xctest */,
-				0938C2242A8F95FB006C3AB0 /* WordScrambleUITests.xctest */,
+				097858592A91097D000A4908 /* AnimationLearning.app */,
+				097858692A910980000A4908 /* AnimationLearningTests.xctest */,
+				097858732A910980000A4908 /* AnimationLearningUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0938C20C2A8F95F8006C3AB0 /* WordScramble */ = {
+		0978585B2A91097D000A4908 /* AnimationLearning */ = {
 			isa = PBXGroup;
 			children = (
-				0938C20D2A8F95F8006C3AB0 /* WordScrambleApp.swift */,
-				0938C20F2A8F95F8006C3AB0 /* ContentView.swift */,
-				0938C2112A8F95FA006C3AB0 /* Assets.xcassets */,
-				0938C2132A8F95FB006C3AB0 /* Preview Content */,
+				0978585C2A91097D000A4908 /* AnimationLearningApp.swift */,
+				0978585E2A91097D000A4908 /* ContentView.swift */,
+				097858602A91097F000A4908 /* Assets.xcassets */,
+				097858622A91097F000A4908 /* Preview Content */,
 			);
-			path = WordScramble;
+			path = AnimationLearning;
 			sourceTree = "<group>";
 		};
-		0938C2132A8F95FB006C3AB0 /* Preview Content */ = {
+		097858622A91097F000A4908 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				0938C2142A8F95FB006C3AB0 /* Preview Assets.xcassets */,
+				097858632A91097F000A4908 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		0938C21D2A8F95FB006C3AB0 /* WordScrambleTests */ = {
+		0978586C2A910980000A4908 /* AnimationLearningTests */ = {
 			isa = PBXGroup;
 			children = (
-				0938C21E2A8F95FB006C3AB0 /* WordScrambleTests.swift */,
+				0978586D2A910980000A4908 /* AnimationLearningTests.swift */,
 			);
-			path = WordScrambleTests;
+			path = AnimationLearningTests;
 			sourceTree = "<group>";
 		};
-		0938C2272A8F95FB006C3AB0 /* WordScrambleUITests */ = {
+		097858762A910980000A4908 /* AnimationLearningUITests */ = {
 			isa = PBXGroup;
 			children = (
-				0938C2282A8F95FB006C3AB0 /* WordScrambleUITests.swift */,
-				0938C22A2A8F95FB006C3AB0 /* WordScrambleUITestsLaunchTests.swift */,
+				097858772A910980000A4908 /* AnimationLearningUITests.swift */,
+				097858792A910980000A4908 /* AnimationLearningUITestsLaunchTests.swift */,
 			);
-			path = WordScrambleUITests;
+			path = AnimationLearningUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0938C2092A8F95F8006C3AB0 /* WordScramble */ = {
+		097858582A91097D000A4908 /* AnimationLearning */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0938C22E2A8F95FB006C3AB0 /* Build configuration list for PBXNativeTarget "WordScramble" */;
+			buildConfigurationList = 0978587D2A910980000A4908 /* Build configuration list for PBXNativeTarget "AnimationLearning" */;
 			buildPhases = (
-				0938C2062A8F95F8006C3AB0 /* Sources */,
-				0938C2072A8F95F8006C3AB0 /* Frameworks */,
-				0938C2082A8F95F8006C3AB0 /* Resources */,
+				097858552A91097D000A4908 /* Sources */,
+				097858562A91097D000A4908 /* Frameworks */,
+				097858572A91097D000A4908 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = WordScramble;
-			productName = WordScramble;
-			productReference = 0938C20A2A8F95F8006C3AB0 /* WordScramble.app */;
+			name = AnimationLearning;
+			productName = AnimationLearning;
+			productReference = 097858592A91097D000A4908 /* AnimationLearning.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0938C2192A8F95FB006C3AB0 /* WordScrambleTests */ = {
+		097858682A910980000A4908 /* AnimationLearningTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0938C2312A8F95FB006C3AB0 /* Build configuration list for PBXNativeTarget "WordScrambleTests" */;
+			buildConfigurationList = 097858802A910980000A4908 /* Build configuration list for PBXNativeTarget "AnimationLearningTests" */;
 			buildPhases = (
-				0938C2162A8F95FB006C3AB0 /* Sources */,
-				0938C2172A8F95FB006C3AB0 /* Frameworks */,
-				0938C2182A8F95FB006C3AB0 /* Resources */,
+				097858652A910980000A4908 /* Sources */,
+				097858662A910980000A4908 /* Frameworks */,
+				097858672A910980000A4908 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0938C21C2A8F95FB006C3AB0 /* PBXTargetDependency */,
+				0978586B2A910980000A4908 /* PBXTargetDependency */,
 			);
-			name = WordScrambleTests;
-			productName = WordScrambleTests;
-			productReference = 0938C21A2A8F95FB006C3AB0 /* WordScrambleTests.xctest */;
+			name = AnimationLearningTests;
+			productName = AnimationLearningTests;
+			productReference = 097858692A910980000A4908 /* AnimationLearningTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0938C2232A8F95FB006C3AB0 /* WordScrambleUITests */ = {
+		097858722A910980000A4908 /* AnimationLearningUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0938C2342A8F95FB006C3AB0 /* Build configuration list for PBXNativeTarget "WordScrambleUITests" */;
+			buildConfigurationList = 097858832A910980000A4908 /* Build configuration list for PBXNativeTarget "AnimationLearningUITests" */;
 			buildPhases = (
-				0938C2202A8F95FB006C3AB0 /* Sources */,
-				0938C2212A8F95FB006C3AB0 /* Frameworks */,
-				0938C2222A8F95FB006C3AB0 /* Resources */,
+				0978586F2A910980000A4908 /* Sources */,
+				097858702A910980000A4908 /* Frameworks */,
+				097858712A910980000A4908 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0938C2262A8F95FB006C3AB0 /* PBXTargetDependency */,
+				097858752A910980000A4908 /* PBXTargetDependency */,
 			);
-			name = WordScrambleUITests;
-			productName = WordScrambleUITests;
-			productReference = 0938C2242A8F95FB006C3AB0 /* WordScrambleUITests.xctest */;
+			name = AnimationLearningUITests;
+			productName = AnimationLearningUITests;
+			productReference = 097858732A910980000A4908 /* AnimationLearningUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0938C2022A8F95F8006C3AB0 /* Project object */ = {
+		097858512A91097D000A4908 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					0938C2092A8F95F8006C3AB0 = {
+					097858582A91097D000A4908 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
-					0938C2192A8F95FB006C3AB0 = {
+					097858682A910980000A4908 = {
 						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = 0938C2092A8F95F8006C3AB0;
+						TestTargetID = 097858582A91097D000A4908;
 					};
-					0938C2232A8F95FB006C3AB0 = {
+					097858722A910980000A4908 = {
 						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = 0938C2092A8F95F8006C3AB0;
+						TestTargetID = 097858582A91097D000A4908;
 					};
 				};
 			};
-			buildConfigurationList = 0938C2052A8F95F8006C3AB0 /* Build configuration list for PBXProject "WordScramble" */;
+			buildConfigurationList = 097858542A91097D000A4908 /* Build configuration list for PBXProject "AnimationLearning" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,36 +214,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 0938C2012A8F95F8006C3AB0;
-			productRefGroup = 0938C20B2A8F95F8006C3AB0 /* Products */;
+			mainGroup = 097858502A91097D000A4908;
+			productRefGroup = 0978585A2A91097D000A4908 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0938C2092A8F95F8006C3AB0 /* WordScramble */,
-				0938C2192A8F95FB006C3AB0 /* WordScrambleTests */,
-				0938C2232A8F95FB006C3AB0 /* WordScrambleUITests */,
+				097858582A91097D000A4908 /* AnimationLearning */,
+				097858682A910980000A4908 /* AnimationLearningTests */,
+				097858722A910980000A4908 /* AnimationLearningUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0938C2082A8F95F8006C3AB0 /* Resources */ = {
+		097858572A91097D000A4908 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0938C2152A8F95FB006C3AB0 /* Preview Assets.xcassets in Resources */,
-				0938C2122A8F95FA006C3AB0 /* Assets.xcassets in Resources */,
+				097858642A91097F000A4908 /* Preview Assets.xcassets in Resources */,
+				097858612A91097F000A4908 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0938C2182A8F95FB006C3AB0 /* Resources */ = {
+		097858672A910980000A4908 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0938C2222A8F95FB006C3AB0 /* Resources */ = {
+		097858712A910980000A4908 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,49 +253,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0938C2062A8F95F8006C3AB0 /* Sources */ = {
+		097858552A91097D000A4908 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0938C2102A8F95F8006C3AB0 /* ContentView.swift in Sources */,
-				0938C20E2A8F95F8006C3AB0 /* WordScrambleApp.swift in Sources */,
+				0978585F2A91097D000A4908 /* ContentView.swift in Sources */,
+				0978585D2A91097D000A4908 /* AnimationLearningApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0938C2162A8F95FB006C3AB0 /* Sources */ = {
+		097858652A910980000A4908 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0938C21F2A8F95FB006C3AB0 /* WordScrambleTests.swift in Sources */,
+				0978586E2A910980000A4908 /* AnimationLearningTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0938C2202A8F95FB006C3AB0 /* Sources */ = {
+		0978586F2A910980000A4908 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0938C2292A8F95FB006C3AB0 /* WordScrambleUITests.swift in Sources */,
-				0938C22B2A8F95FB006C3AB0 /* WordScrambleUITestsLaunchTests.swift in Sources */,
+				097858782A910980000A4908 /* AnimationLearningUITests.swift in Sources */,
+				0978587A2A910980000A4908 /* AnimationLearningUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0938C21C2A8F95FB006C3AB0 /* PBXTargetDependency */ = {
+		0978586B2A910980000A4908 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0938C2092A8F95F8006C3AB0 /* WordScramble */;
-			targetProxy = 0938C21B2A8F95FB006C3AB0 /* PBXContainerItemProxy */;
+			target = 097858582A91097D000A4908 /* AnimationLearning */;
+			targetProxy = 0978586A2A910980000A4908 /* PBXContainerItemProxy */;
 		};
-		0938C2262A8F95FB006C3AB0 /* PBXTargetDependency */ = {
+		097858752A910980000A4908 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0938C2092A8F95F8006C3AB0 /* WordScramble */;
-			targetProxy = 0938C2252A8F95FB006C3AB0 /* PBXContainerItemProxy */;
+			target = 097858582A91097D000A4908 /* AnimationLearning */;
+			targetProxy = 097858742A910980000A4908 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0938C22C2A8F95FB006C3AB0 /* Debug */ = {
+		0978587B2A910980000A4908 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -355,7 +355,7 @@
 			};
 			name = Debug;
 		};
-		0938C22D2A8F95FB006C3AB0 /* Release */ = {
+		0978587C2A910980000A4908 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -409,14 +409,14 @@
 			};
 			name = Release;
 		};
-		0938C22F2A8F95FB006C3AB0 /* Debug */ = {
+		0978587E2A910980000A4908 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"WordScramble/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AnimationLearning/Preview Content\"";
 				DEVELOPMENT_TEAM = 4LZSXT57C3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -430,7 +430,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = mgaiduk.WordScramble;
+				PRODUCT_BUNDLE_IDENTIFIER = mgaiduk.AnimationLearning;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -438,14 +438,14 @@
 			};
 			name = Debug;
 		};
-		0938C2302A8F95FB006C3AB0 /* Release */ = {
+		0978587F2A910980000A4908 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"WordScramble/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AnimationLearning/Preview Content\"";
 				DEVELOPMENT_TEAM = 4LZSXT57C3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -459,7 +459,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = mgaiduk.WordScramble;
+				PRODUCT_BUNDLE_IDENTIFIER = mgaiduk.AnimationLearning;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -467,7 +467,7 @@
 			};
 			name = Release;
 		};
-		0938C2322A8F95FB006C3AB0 /* Debug */ = {
+		097858812A910980000A4908 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -478,16 +478,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = mgaiduk.WordScrambleTests;
+				PRODUCT_BUNDLE_IDENTIFIER = mgaiduk.AnimationLearningTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordScramble.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WordScramble";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimationLearning.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AnimationLearning";
 			};
 			name = Debug;
 		};
-		0938C2332A8F95FB006C3AB0 /* Release */ = {
+		097858822A910980000A4908 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -498,16 +498,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = mgaiduk.WordScrambleTests;
+				PRODUCT_BUNDLE_IDENTIFIER = mgaiduk.AnimationLearningTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordScramble.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WordScramble";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimationLearning.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AnimationLearning";
 			};
 			name = Release;
 		};
-		0938C2352A8F95FB006C3AB0 /* Debug */ = {
+		097858842A910980000A4908 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -516,16 +516,16 @@
 				DEVELOPMENT_TEAM = 4LZSXT57C3;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = mgaiduk.WordScrambleUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = mgaiduk.AnimationLearningUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = WordScramble;
+				TEST_TARGET_NAME = AnimationLearning;
 			};
 			name = Debug;
 		};
-		0938C2362A8F95FB006C3AB0 /* Release */ = {
+		097858852A910980000A4908 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -534,55 +534,55 @@
 				DEVELOPMENT_TEAM = 4LZSXT57C3;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = mgaiduk.WordScrambleUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = mgaiduk.AnimationLearningUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = WordScramble;
+				TEST_TARGET_NAME = AnimationLearning;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0938C2052A8F95F8006C3AB0 /* Build configuration list for PBXProject "WordScramble" */ = {
+		097858542A91097D000A4908 /* Build configuration list for PBXProject "AnimationLearning" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0938C22C2A8F95FB006C3AB0 /* Debug */,
-				0938C22D2A8F95FB006C3AB0 /* Release */,
+				0978587B2A910980000A4908 /* Debug */,
+				0978587C2A910980000A4908 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0938C22E2A8F95FB006C3AB0 /* Build configuration list for PBXNativeTarget "WordScramble" */ = {
+		0978587D2A910980000A4908 /* Build configuration list for PBXNativeTarget "AnimationLearning" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0938C22F2A8F95FB006C3AB0 /* Debug */,
-				0938C2302A8F95FB006C3AB0 /* Release */,
+				0978587E2A910980000A4908 /* Debug */,
+				0978587F2A910980000A4908 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0938C2312A8F95FB006C3AB0 /* Build configuration list for PBXNativeTarget "WordScrambleTests" */ = {
+		097858802A910980000A4908 /* Build configuration list for PBXNativeTarget "AnimationLearningTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0938C2322A8F95FB006C3AB0 /* Debug */,
-				0938C2332A8F95FB006C3AB0 /* Release */,
+				097858812A910980000A4908 /* Debug */,
+				097858822A910980000A4908 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0938C2342A8F95FB006C3AB0 /* Build configuration list for PBXNativeTarget "WordScrambleUITests" */ = {
+		097858832A910980000A4908 /* Build configuration list for PBXNativeTarget "AnimationLearningUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0938C2352A8F95FB006C3AB0 /* Debug */,
-				0938C2362A8F95FB006C3AB0 /* Release */,
+				097858842A910980000A4908 /* Debug */,
+				097858852A910980000A4908 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0938C2022A8F95F8006C3AB0 /* Project object */;
+	rootObject = 097858512A91097D000A4908 /* Project object */;
 }
