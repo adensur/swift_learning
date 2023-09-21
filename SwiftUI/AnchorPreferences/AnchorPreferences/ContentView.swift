@@ -113,8 +113,9 @@ struct ContentView: View {
                 Spacer()
                 Image(systemName: "gearshape")
                     .padding()
-                    .addSpotlight(0, shape: .rounded, roundedRadius: 10, text: "gearshape helper text")
+                    
             }
+            .addSpotlight(0, shape: .rounded, roundedRadius: 10, text: "gearshape helper text")
             LinearGradient(colors: [.red, .green], startPoint: .leading, endPoint: .trailing)
                 .frame(maxHeight: 200)
                 .overlay {
